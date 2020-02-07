@@ -64,7 +64,7 @@ def get_results_using_cosine(input,current_user_data,current_user_id,movie_ids,r
                     count=count+1
              if count == 0:
                  continue
-             iuf=np.log(200/count)
+             iuf=np.log(2000/count)
              current_user_data[i] = np.rint(current_user_data[i] *iuf)
              for u in IUFratings:
                  u[i] = np.rint(u[i] * iuf)
