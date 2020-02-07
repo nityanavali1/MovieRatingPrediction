@@ -173,7 +173,7 @@ def sortSecond(val):
 
 def main():
     # Declaring rows
-    N = 200
+    N = 2000
     # Declaring columns
     M = 1000
 
